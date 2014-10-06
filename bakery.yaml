@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [LibreBaskerville-Regular.ttf.ttx, LibreBaskerville-Italic.ttf.ttx,
+  LibreBaskerville-Bold.ttf.ttx, src/LibreBaskerville-Bold.otf.ttx, src/LibreBaskerville-Italic.otf.ttx,
+  src/LibreBaskerville-Regular.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
